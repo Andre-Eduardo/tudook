@@ -1,0 +1,41 @@
+
+body{
+    width: 100%;
+    background-color: #fff;
+    font-family: 'Nunito', sans-serif;
+   
+}
+.bg-hero { 
+    background-image: url(https://images.unsplash.com/photo-1610147323479-a7fb11ffd5dd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80);
+    background-size: cover;
+}
+.navImg {
+    display: flex!important;
+    flex-direction: row!important;
+    justify-content: center;
+
+}
+.mainContainer {
+
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.divNotices{
+    display: flex;
+    font-family: 'MADE Tommy Soft', sans-serif;
+}
+/* 
+.containerNotices{
+display: flex;
+
+flex-direction: row;
+
+} */
+.decoratorVideoText {
+ 
+    color:  #FFA500;
+    font-family: 'MADE Tommy Soft Outline', sans-serif;
+  }
