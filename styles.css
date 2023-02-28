@@ -19,9 +19,8 @@ body{
 
     display: flex;
     width: 100%;
-    align-items: center;
     flex-direction: column;
-    justify-content: center;
+   
 }
 .divNotices{
     display: flex;
@@ -39,3 +38,12 @@ flex-direction: row;
     color:  #FFA500;
     font-family: 'MADE Tommy Soft Outline', sans-serif;
   }
+  .overText {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 16px;     /* fallback */
+    max-height: 32px;      /* fallback */
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+ }
