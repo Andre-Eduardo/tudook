@@ -1,6 +1,6 @@
 
 body{
-    width: 100%;
+   
     background-color: #fff;
     font-family: 'Nunito', sans-serif;
    
@@ -17,9 +17,9 @@ body{
 }
 .mainContainer {
 
-    display: flex;
-    width: 100%;
-    flex-direction: column;
+   
+   
+
    
 }
 .divNotices{
@@ -46,3 +46,10 @@ flex-direction: row;
     -webkit-line-clamp: 2; /* number of lines to show */
     -webkit-box-orient: vertical;
  }
+ .hide-scroll-bar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .hide-scroll-bar::-webkit-scrollbar {
+    display: none;
+  }
