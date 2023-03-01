@@ -22,103 +22,113 @@
 
 
 
-    <header
-        class="  relative flex  flex-row-reverse md:flex-row  md:justify-around justify-between items-center align-middle bg-[#65AD51]  p-6 m-0 ">
-        <div>
-            <button
-                class=" uppercase  shadow bg-[#C62738] hover:opacity-80 focus:shadow-outline focus:outline-none text-white md:text-xl w-12 h-12 md:w-[6.25rem] md:h-10 md:rounded-full rounded-md ">
-                <p class="font-extrabold absolute  invisible  md:relative md:visible">Menu</p>
-                <i class="md:invisible md:absolute fa-solid fa-bars fa-2xl text-white"></i>
-            </button>
-        </div>
-        <div class="  md:col-end-1">
-            <img src="./img/logo_tudook.png" />
-        </div>
-        <div class=" flex flex-col items-end md:grid-cols-1">
+    <header class="   bg-[#65AD51]  p-6  ">
+        <div class=" container mx-auto  flex flex-row-reverse md:flex-row   justify-between items-center align-middle">
 
-            <button
-                class=" absolute  invisible  md:relative md:visible col-end-2 text-white border border-white border-1 bg-transparent w-40 py-1 rounded-full">
-                <p class="">Quero anunciar</p>
-            </button>
-            <div class="pt-2 relative   text-gray-600">
 
-                <input
-                    class="absolute  invisible  md:relative md:visible border-1  border-white bg-transparent h-8  pr-16 rounded-full text-sm focus:outline-none"
-                    type="search" name="search" placeholder="Pesquisar">
-                <button type="submit"
-                    class="absolute  invisible   md:visible  right-0.5 top-0 mt-2  bg-[#43449A] rounded-full p-2">
-                    <svg class=" text-white h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px"
-                        viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;"
-                        xml:space="preserve" width="512px" height="512px">
-                        <path
-                            d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" />
-                    </svg>
+            <div>
+                <button
+                    class=" uppercase  shadow bg-[#C62738] hover:opacity-80 focus:shadow-outline focus:outline-none text-white md:text-xl w-12 h-12 md:w-[6.25rem] md:h-10 md:rounded-full rounded-md ">
+                    <p class="font-extrabold absolute  invisible  md:relative md:visible">Menu</p>
+                    <i class="md:invisible md:absolute fa-solid fa-bars fa-2xl text-white"></i>
                 </button>
+            </div>
+            <div class="  ">
+                <img src="./img/logo_tudook.png" />
+            </div>
+            <div class=" flex flex-col items-end md:grid-cols-1">
+
+                <button
+                    class=" absolute  invisible  md:relative md:visible col-end-2 text-white border border-white border-1 bg-transparent w-40 py-1 rounded-full">
+                    <p class="">Quero anunciar</p>
+                </button>
+                <div class="pt-2 relative   text-gray-600">
+
+                    <input
+                        class="absolute  invisible  md:relative md:visible border-1  border-white bg-transparent h-8  pr-16 rounded-full text-sm focus:outline-none"
+                        type="search" name="search" placeholder="Pesquisar">
+                    <button type="submit"
+                        class="absolute  invisible   md:visible  right-0.5 top-0 mt-2  bg-[#43449A] rounded-full p-2">
+                        <svg class=" text-white h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px"
+                            viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;"
+                            xml:space="preserve" width="512px" height="512px">
+                            <path
+                                d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" />
+                        </svg>
+                    </button>
+                </div>
             </div>
         </div>
     </header>
     <main class="">
 
-        <section class=" mt-6 ">
-            <div  class="container mx-auto  bg-slate-600 h-14  md:h-[14.1rem] ">
+        <section class=" mt-3 ">
+            <div class="container mx-auto w-[20.1rem] bg-slate-600 h-14  md:h-[14.1rem] md:w-full ">
                 publi
             </div>
         </section>
-        <div class="ml-6 md:ml-10">
-            <h1 class="text-4xl font-black my-6 ">
-                Esportes
-            </h1>
-        </div>
+
+        <section>
+            <div class="container mx-auto">
+                <h1 class="  text-4xl font-black my-6 ">
+                    Esportes
+                </h1>
+            </div>
+        </section>
 
 
-        </div>
-        </div>
-        <div class="my-4 flex flex-col relative md:invisible  ">
-            <div class="flex md:absolute overflow-x-scroll hide-scroll-bar md:overscroll-x-none md:mx-auto">
-                <div class="flex  md:ml-0 gap-3 md:gap-0">
-                    <div class="inline-block ease-in-out ">
-                        <div class="h-[20rem] w-[21.25rem]  relative overflow-hidden  ">
-                            <img src="https://www.kindacode.com/wp-content/uploads/2022/06/night-sky.jpeg"
-                                class=" w-full h-full  rounded-3xl " />
-                            <h3 class="absolute text-xl font-black text-white bottom-16 ml-8 ">Politica
-                            </h3>
-                            <p class="absolute text-base font-normal leading-5 text-white bottom-7 ml-8 w-full pr-19 ">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            </p>
+        <section class="my-4   md:invisible  ">
+            <div class="container mx-auto">
+
+                <div class=" md:absolute overflow-x-scroll hide-scroll-bar md:overscroll-x-none ">
+                    <div class="flex  md:ml-0 gap-3 md:gap-0">
+                        <div class="inline-block ease-in-out ">
+                            <div class="h-[20rem] w-[21.25rem]  relative overflow-hidden  ">
+                                <img src="https://www.kindacode.com/wp-content/uploads/2022/06/night-sky.jpeg"
+                                    class=" w-full h-full  rounded-3xl " />
+                                <h3 class="absolute text-xl font-black text-white bottom-16 ml-8 ">Politica
+                                </h3>
+                                <p
+                                    class="absolute text-base font-normal leading-5 text-white bottom-7 ml-8 w-full pr-19 ">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="inline-block  ">
-                        <div class="h-[20rem] w-[21.25rem]  relative overflow-hidden  ">
-                            <img src="https://www.kindacode.com/wp-content/uploads/2022/06/night-sky.jpeg"
-                                class=" w-full h-full  rounded-3xl " />
-                            <h3 class="absolute text-xl font-black text-white bottom-16 ml-8 ">Politica
-                            </h3>
-                            <p class="absolute text-base font-normal leading-5 text-white bottom-7 ml-8 w-full pr-19 ">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            </p>
+                        <div class="inline-block  ">
+                            <div class="h-[20rem] w-[21.25rem]  relative overflow-hidden  ">
+                                <img src="https://www.kindacode.com/wp-content/uploads/2022/06/night-sky.jpeg"
+                                    class=" w-full h-full  rounded-3xl " />
+                                <h3 class="absolute text-xl font-black text-white bottom-16 ml-8 ">Politica
+                                </h3>
+                                <p
+                                    class="absolute text-base font-normal leading-5 text-white bottom-7 ml-8 w-full pr-19 ">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="inline-block  ">
-                        <div class="h-[20rem] w-[21.25rem]  relative overflow-hidden  ">
-                            <img src="https://www.kindacode.com/wp-content/uploads/2022/06/night-sky.jpeg"
-                                class=" w-full h-full  rounded-3xl " />
-                            <h3 class="absolute text-xl font-black text-white bottom-16 ml-8 ">Politica
-                            </h3>
-                            <p class="absolute text-base font-normal leading-5 text-white bottom-7 ml-8 w-full pr-19 ">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            </p>
+                        <div class="inline-block  ">
+                            <div class="h-[20rem] w-[21.25rem]  relative overflow-hidden  ">
+                                <img src="https://www.kindacode.com/wp-content/uploads/2022/06/night-sky.jpeg"
+                                    class=" w-full h-full  rounded-3xl " />
+                                <h3 class="absolute text-xl font-black text-white bottom-16 ml-8 ">Politica
+                                </h3>
+                                <p
+                                    class="absolute text-base font-normal leading-5 text-white bottom-7 ml-8 w-full pr-19 ">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                            </div>
                         </div>
-                    </div>
 
+                    </div>
                 </div>
             </div>
-        </div>
-        <section class="md:flex md:flex-col-reverse">
+        </section>
+        <section class="md:flex md:flex-col-reverse ">
 
-            <div class="relative   ">
-                <div class="md:flex justify-around md:items-center mt-11  mx-10 md:mx-0">
+            <div class="container relative mx-auto  ">
+                <div class="flex  justify-center  md:justify-between   md:items-center mt-4  ">
                     <div class="">
                         <div class="flex items-start">
                             <div class=" w-28 h-28  min-w-[7rem] bg-slate-600 rounded-2xl">
@@ -136,7 +146,7 @@
                         </div>
 
 
-                        <div class="flex items-start mt-8 ">
+                        <div class="flex items-start mt-8 md:mt-2">
                             <div class="w-28 h-28  min-w-[7rem] bg-slate-600 rounded-2xl">
                                 foto
                             </div>
@@ -144,10 +154,10 @@
                                 <h6 class=" text-[#C62738] font-black text-xs ">Mundo</h6>
                                 <h3 class="font-black text-2xl">Lorem Ipsum</h3>
                                 <p
-                                class="text-[#777777] max-w-[250px]  md:max-w-[350px] text-sm leading-4 lg:text-base   md:leading-5">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam scelerisque purus
-                                in
-                            <p>
+                                    class="text-[#777777] max-w-[250px]  md:max-w-[350px] text-sm leading-4 lg:text-base   md:leading-5">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam scelerisque purus
+                                    in
+                                <p>
                             </div>
 
                         </div>
@@ -159,7 +169,7 @@
                                 foto
                             </div>
                             <div class=" mt-36 absolute">
-                                
+
                                 <h3 class=" text-xl font-black text-white bottom-16 ml-8 ">Politica
                                 </h3>
                                 <p class=" text-base font-normal leading-5 text-white bottom-7 ml-8 w-full pr-19 ">
@@ -204,13 +214,13 @@
             publi
         </section>
 
-        <section class=" mt-3 w-full bg-[#65AD51] h-[26rem] md:h-[31rem] ">
-            <div class="">
-                <div class="py-3 pl-7 md:pl-36">
-                    <p class=" md:text-6xl text-3xl text-white decoratorVideoText font-black">MOMENTOS</p>
+        <section class=" mt-3  bg-[#65AD51] h-[26rem] md:h-[31rem] ">
+            <div class="container mx-auto">
+                <div class=" ml-7 md:ml-0 ">
+                    <p class=" pt-6 md:text-6xl text-3xl text-white decoratorVideoText font-black">MOMENTOS</p>
                 </div>
-                <div class="mx-auto px-7 grid grid-rows-2 md:grid md:grid-cols-2  md:pl-36 ">
-                    <div id="default-carousel" class="relative" data-carousel="static">
+                <div class="  grid grid-rows-2 md:grid md:grid-cols-2  mt-6 px-7 md:px-0 ">
+                    <div id="default-carousel" class="relative md:max-w-[33.1rem]" data-carousel="static">
                         <!-- Carousel wrapper -->
                         <div class="overflow-hidden relative h-48 md:h-[20.5rem] rounded-2xl">
                             <!-- Item 1 -->
@@ -270,21 +280,21 @@
                         </button>
                     </div>
                     <div
-                        class="flex mx-auto md:mx-0 space-x-5 md:space-x-0  md:ml-3 mt-8 md:grid md:grid-cols-2 md:gap-4 ">
-                        <div class="h-24 w-40 md:w-56 md:h-36 bg-slate-900 rounded-xl">
+                        class="flex mx-auto md:mx-0 space-x-5 md:space-x-0  md:ml-3  md:grid md:grid-cols-2 md:gap-6 mt-8 md:mt-0">
+                        <div class="h-24 w-40 md:w-56 md:h-36 bg-slate-900 rounded-3xl">
                             <!-- <img src="https://flowbite.com/docs/images/carousel/carousel-3.svg" class="  h-full rounded-2xl " alt="..."> -->
                         </div>
 
-                        <div class="h-24 w-40 md:w-56 md:h-36 bg-slate-900 rounded-xl">
+                        <div class="h-24 w-40 md:w-56 md:h-36 bg-slate-900 rounded-3xl">
                             <!-- <img src="https://flowbite.com/docs/images/carousel/carousel-3.svg" class="  h-full rounded-2xl " alt="..."> -->
                         </div>
 
                         <div
-                            class="h-24 w-40 md:w-56 md:h-36 bg-slate-900 rounded-2xl absolute invisible md:visible  md:relative  ">
+                            class="h-24 w-40 md:w-56 md:h-36 bg-slate-900 rounded-3xl absolute invisible md:visible  md:relative  ">
                             <!-- <img src="https://flowbite.com/docs/images/carousel/carousel-3.svg" class="  h-full rounded-2xl " alt="..."> -->
                         </div>
                         <div
-                            class="h-24 w-40 md:w-56 md:h-36 bg-slate-900  rounded-2xl absolute invisible md:visible  md:relative   ">
+                            class="h-24 w-40 md:w-56 md:h-36 bg-slate-900  rounded-3xl absolute invisible md:visible  md:relative   ">
                             <!-- <img src="https://flowbite.com/docs/images/carousel/carousel-3.svg" class="  h-full rounded-2xl " alt="..."> -->
                         </div>
 
@@ -296,63 +306,62 @@
             publi
         </section>
 
-        <section class="relative  md:flex md:w-full md:justify-around mt-11 md:px-36 mx-10">
-            <div class="">
-                <div class="flex items-start">
-                    <div class=" w-28 h-28 md:w-48 md:h-36 min-w-[7rem] bg-slate-600 rounded-2xl">
-                        foto
-                    </div>
-                    <div class="ml-4 mt-2">
-                        <h6 class=" text-[#65AD51] font-black text-xs">Esportes</h6>
-                        <h3 class="font-black text-2xl">Lorem Ipsum</h3>
-                        <p
-                            class="text-[#777777] max-w-[250px]  lg:max-w-none text-sm leading-4 lg:text-base  lg:w-2/5  lg:h-11 lg:leading-5">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam scelerisque purus in
-                            pretium placerat. Sed tincidunt, enim sollicitudin rhoncus sagittis, orci diam facilisis
-                            orci, eget aliquam augue eros in purus.</p>
-                    </div>
-                </div>
+        <section class=" mt-11  ">
+            <div class="container   md:mx-auto md:flex flex-row md:justify-between">
 
 
-                <div class="flex items-start mt-8 ">
-                    <div class="w-28 h-28 md:w-48 md:h-36 min-w-[7rem] bg-slate-600 rounded-2xl">
-                        foto
+                <div class="flex flex-col items-center ">
+                    <div class="flex items-start">
+                        <div class=" w-28 h-28 md:w-48 md:h-36 min-w-[7rem] bg-slate-600 rounded-2xl">
+                            foto
+                        </div>
+                        <div class="ml-4 mt-2">
+                            <h6 class=" text-[#65AD51] font-black text-xs">Esportes</h6>
+                            <h3 class="font-black text-2xl">Lorem Ipsum</h3>
+                            <p
+                                class="text-[#777777] max-w-[250px]  lg:max-w-none text-sm leading-4 md:text-base  lg:w-2/5  md:h-11 md:leading-5">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam scelerisque purus in
+                               </p>
+                        </div>
                     </div>
-                    <div class="ml-4 mt-2">
-                        <h6 class=" text-[#C62738] font-black text-xs ">Mundo</h6>
-                        <h3 class="font-black text-2xl">Lorem Ipsum</h3>
-                        <p
-                            class="text-[#777777] max-w-[250px]  lg:max-w-none text-sm leading-4 lg:text-base  lg:w-2/5  lg:h-11 lg:leading-5">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam scelerisque purus in
-                            pretium placerat. Sed tincidunt, enim sollicitudin rhoncus sagittis, orci diam facilisis
-                            orci, eget aliquam augue eros in purus.</p>
+                    <div class="flex items-start mt-8 ">
+                        <div class="w-28 h-28 md:w-48 md:h-36 min-w-[7rem] bg-slate-600 rounded-2xl">
+                            foto
+                        </div>
+                        <div class="ml-4 mt-2">
+                            <h6 class=" text-[#C62738] font-black text-xs ">Mundo</h6>
+                            <h3 class="font-black text-2xl">Lorem Ipsum</h3>
+                            <p
+                                class="text-[#777777] max-w-[250px]  lg:max-w-none text-sm leading-4 lg:text-base  lg:w-2/5  lg:h-11 lg:leading-5">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam scelerisque purus in
+                              </p>
+                        </div>
+
+                    </div>
+                    <div class=" absolute md:relative flex justify-between mt-8 invisible md:visible">
+                        <div class="w-48 h-36 min-w-[7rem] bg-slate-600 rounded-2xl">
+                            foto
+                        </div>
+                        <div class="ml-4 mt-2">
+                            <h6 class=" text-[#65AD51] font-black text-xs">Brasília</h6>
+                            <h3 class="font-black text-2xl">Lorem Ipsum</h3>
+                            <p
+                                class="text-[#777777] max-w-[250px]  lg:max-w-none text-sm leading-4 lg:text-base  lg:w-2/5  lg:h-11 lg:leading-5">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam scelerisque purus in
+                               </p>
+                        </div>
                     </div>
 
-                </div>
-                <div class=" absolute md:relative flex justify-between mt-8 invisible md:visible">
-                    <div class="w-48 h-36 min-w-[7rem] bg-slate-600 rounded-2xl">
-                        foto
-                    </div>
-                    <div class="ml-4 mt-2">
-                        <h6 class=" text-[#65AD51] font-black text-xs">Brasília</h6>
-                        <h3 class="font-black text-2xl">Lorem Ipsum</h3>
-                        <p
-                            class="text-[#777777] max-w-[250px]  lg:max-w-none text-sm leading-4 lg:text-base  lg:w-2/5  lg:h-11 lg:leading-5">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam scelerisque purus in
-                            pretium placerat. Sed tincidunt, enim sollicitudin rhoncus sagittis, orci diam facilisis
-                            orci, eget aliquam augue eros in purus.</p>
-                    </div>
-                </div>
-            </div>
-            </div>
-            <aside>
-                <div class="  mx-auto md:mx-0 w-72 h-60 bg-slate-600 mt-5 md:mt-0 ">
-                    publi
-                </div>
-                <div class=" absolute md:relative w-72 h-60 bg-slate-600 mt-12 invisible md:visible">
-                    publi
-                </div>
-            </aside>
+                </div>    
+                        <aside>
+                            <div class="  mx-auto md:mx-0 w-72 h-60 bg-slate-600 mt-5 md:mt-0 ">
+                                publi
+                            </div>
+                            <div class=" absolute md:relative w-72 h-60 bg-slate-600 mt-12 invisible md:visible">
+                                publi
+                            </div>
+                        </aside>
+            </div>   
         </section>
 
 
