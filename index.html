@@ -22,30 +22,30 @@
 
 
 
-    <header class=" flex  justify-around align-middle bg-[#444798]  p-6 m-0 ">
+    <header class="  relative flex flex-row-reverse md:flex-row  md:justify-around justify-between items-center align-middle bg-[#444798]  p-6 m-0 ">
         <di>
-
             <button
-                class=" uppercase  shadow bg-[#C62738] hover:opacity-80 focus:shadow-outline focus:outline-none text-white text-xl py-2 px-12 rounded-full">
-                <p class="font-extrabold">Menu</p>
+                class=" uppercase  shadow bg-[#C62738] hover:opacity-80 focus:shadow-outline focus:outline-none text-white md:text-xl w-12 h-12 md:w-[6.25rem] md:h-10 md:rounded-full">
+                <p class="font-extrabold absolute  invisible  md:relative md:visible">Menu</p>
+                <i class="md:invisible md:absolute fa-solid fa-bars fa-2xl text-white"></i>
             </button>
         </di>
-        <div class="col-end-1">
+        <div class="  md:col-end-1">
             <img src="./img/logo_tudook.png" />
         </div>
-        <div class=" grid-cols-1">
+        <div class=" flex flex-col items-end md:grid-cols-1">
 
             <button
-                class="col-end-2 text-[#FFA500] border border-[#FFA500] border-1 bg-transparent px-6 py-1 rounded-full">
+                class=" absolute  invisible  md:relative md:visible col-end-2 text-[#FFA500] border border-[#FFA500] border-1 bg-transparent w-40 py-1 rounded-full">
                 <p class="">Quero anunciar</p>
             </button>
             <div class="pt-2 relative   text-gray-600">
 
                 <input
-                    class="border-1 border-gray-300 bg-transparent h-8  pr-16 rounded-full text-sm focus:outline-none"
+                    class="absolute  invisible  md:relative md:visible border-1 border-gray-300 bg-transparent h-8  pr-16 rounded-full text-sm focus:outline-none"
                     type="search" name="search" placeholder="Pesquisar">
-                <button type="submit" class="absolute right-0.5 top-0 mt-2  bg-[#FFA500] rounded-full p-2">
-                    <svg class="text-white h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg"
+                <button type="submit" class="absolute  invisible   md:visible  right-0.5 top-0 mt-2  bg-[#FFA500] rounded-full p-2">
+                    <svg class=" text-white h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px"
                         viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;"
                         xml:space="preserve" width="512px" height="512px">
